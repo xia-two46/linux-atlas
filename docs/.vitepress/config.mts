@@ -98,7 +98,7 @@ export default defineConfig({
       copyright: 'Copyright © 2026 Linux Atlas'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/' }
+      { icon: 'github', link: 'https://github.com/xia-two46/linux-atlas' }
     ]
   }
 })
