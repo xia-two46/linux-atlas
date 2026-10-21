@@ -36,7 +36,7 @@ linux-atlas/
 │   │           └── terminal-core.js # 伪终端核心（零依赖）
 │   ├── commands/                  # 63 条命令手册（md）
 │   ├── guide/                     # Linux 文化栏目
-│   ├── about/                     # 项目介绍 + 部署 + 答辩指南
+│   ├── about/                     # 项目介绍 + 部署文档
 │   ├── public/                    # 静态资源
 │   └── index.md                   # 首页
 ├── deploy/                        # Nginx 配置等部署文件
