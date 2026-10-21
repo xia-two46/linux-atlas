@@ -21,13 +21,13 @@ description: Linux 命令图谱项目介绍
 | 前端 | Vue 3、原生 JavaScript、手写 CSS |
 | 亮点组件 | 自研浏览器伪终端（零依赖） |
 | 构建 | VitePress 静态生成，输出纯静态站点 |
-| 部署 | Nginx + Let's Encrypt HTTPS + git push 即上线 |
+| 部署 | GitHub Pages + GitHub Actions，推送即上线 |
 
 ## 项目亮点
 
 1. **自研伪终端**：用纯 JavaScript 手写了一个微型 shell（虚拟文件系统 + 命令解释器 + Tab 补全 + 历史记录），不依赖任何第三方库，是本项目「前端技术」最有说服力的部分。
 2. **内容与体验结合**：不是死文档，而是一个能动手体验的交互站点。
-3. **从源码到公网**：完整的部署链路（源码 → 构建 → Nginx → HTTPS），体现 Linux 部署能力。
+3. **从源码到公网**：完整的部署链路（源码 → 构建 → GitHub Pages 自动发布），体现自动化部署能力。
 
 ## 许可与开源
 
@@ -35,4 +35,4 @@ description: Linux 命令图谱项目介绍
 
 ## 相关文档
 
-- [部署文档](/about/deploy)：从裸机到公网 HTTPS 的完整流程。
+- [部署文档](/about/deploy)：本站实际使用的 GitHub Pages 部署教程。
