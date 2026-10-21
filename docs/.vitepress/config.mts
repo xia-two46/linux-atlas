@@ -44,8 +44,7 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '项目介绍', link: '/about/' },
-          { text: '部署文档', link: '/about/deploy' },
-          { text: '答辩演示指南', link: '/about/presentation' }
+          { text: '部署文档', link: '/about/deploy' }
         ]
       }
     ],
