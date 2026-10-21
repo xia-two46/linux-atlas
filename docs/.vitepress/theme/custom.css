@@ -1,0 +1,74 @@
+/* 自定义主题样式：命令图谱品牌色与细节增强 */
+
+:root {
+  --vp-c-brand-1: #e95420;          /* Ubuntu 橙，呼应 Linux 主题 */
+  --vp-c-brand-2: #f3815a;
+  --vp-c-brand-3: #c73e14;
+  --vp-c-brand-soft: rgba(233, 84, 32, 0.14);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #e95420 20%, #f6a623 80%);
+  --vp-home-hero-image-background-image: linear-gradient(120deg, #e95420 20%, #f6a623 80%);
+  --vp-home-hero-image-filter: blur(72px);
+}
+
+/* 首页 hero 里的终端组件自适应 */
+.vp-doc .hero-terminal {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* 命令卡片 grid */
+.cmd-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+}
+.cmd-card {
+  display: block;
+  padding: 12px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  font-family: var(--vp-font-family-mono);
+  font-size: 14px;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s, color 0.2s;
+}
+.cmd-card:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+}
+
+/* 分类卡片 */
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin: 16px 0;
+}
+.cat-card {
+  padding: 18px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.cat-card:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+.cat-card h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+.cat-card .icon {
+  font-size: 20px;
+  margin-right: 6px;
+}
+.cat-card p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}

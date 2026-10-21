@@ -1,0 +1,7 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+# VitePress 开发服务器生成的临时文件
+*.timestamp-*.mjs
+.DS_Store
+*.log
